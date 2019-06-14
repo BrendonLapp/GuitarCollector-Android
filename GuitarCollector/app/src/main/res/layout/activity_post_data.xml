@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".PostDataActivity">
+
+
+    <EditText
+        android:id="@+id/post_activity_brand_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/brand"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/post_activity_model_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/model"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/post_activity_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <!--<EditText-->
+    <!--android:id="@+id/post_activity_type_edittext"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:hint="@string/type"-->
+    <!--android:inputType="textPersonName" />-->
+
+    <EditText
+        android:id="@+id/post_activity_serialnumber_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/serial_number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/post_activity_tuning_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tuning"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/post_activity_stringgauge_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/string_gauge"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/post_activity_pick_image_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+    <Button
+        android:id="@+id/post_activity_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SubmitOnClick"
+        android:text="@string/submit_button" />
+
+
+</LinearLayout>

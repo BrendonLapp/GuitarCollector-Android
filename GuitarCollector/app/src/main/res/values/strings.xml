@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GuitarCollector</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="type">Type</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="tuning">Tuning</string>
+    <string name="string_gauge">String Gauge</string>
+    <string name="submit_button">Submit</string>
+    <string name="delete_button">Delete</string>
+    <string name="update_button">Update</string>
+    <string name="cancle_button">Cancle</string>
+    
+    <string-array name="guitar_types">
+        <item>Electric Guitar</item>
+        <item>Acoustic Guitar</item>
+        <item>Electro-Acoustic Guitar</item>
+        <item>Classical guitar</item>
+        <item>Electric Bass</item>
+        <item>Acoustic Bass</item>
+    </string-array>
+</resources>
